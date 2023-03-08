@@ -12,7 +12,11 @@ public class Main {
         Schrank kleiderschrank = new Schrank("Kleiderschrank", 2, 2);
         Schrank kommode = new Schrank("Kommode", 0, 5);
 
+
+        kleiderschrank.setTüren(1);
+        kleiderschrank.setSchubladen(10);
         kleiderschrank.türAuf();
+        kleiderschrank.schubladenAuf();
         kommode.türAuf();
         kommode.schubladenAuf();
 
